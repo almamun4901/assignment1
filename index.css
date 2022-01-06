@@ -6,7 +6,7 @@ span{
 }
 .intro-flex{
     width: 50%;
-    padding: 5%;
+    padding-left: 2%;
 }
 h1{
     font-size: 50px;
@@ -26,19 +26,39 @@ h1{
 .intro-flex img{
     height: 500px;
     width: auto; 
+    padding-left: 5%;
+    padding-bottom: 15%;
+    margin-top: 5%;
+}
+#coding-image{
+    
 }
 .mission{
     display: flex;
 }
 .mission-flex{
+    width: 33%;
+    float: left;
     margin: 20px;
     border-radius: 25px;
-    padding-left: 10px;
+    padding-left: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 .mission img{
     height: 200px;
     width: 200px;
+}
+#background{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: left;
+}
+#background2{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+    background-position: right bottom;
 }
 footer{
     background-color: black;
@@ -46,5 +66,6 @@ footer{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-top: 5px;
     padding-bottom: 10px;
+    margin-top: 10px;
     text-align: center;
 }
